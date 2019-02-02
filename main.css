@@ -39,7 +39,8 @@ form label {
 }
 
 h1 {
-    color: #424242;
+    /* color: #424242; */
+    color: lightseagreen;
     border-bottom: 2px solid tomato;
     text-align: center;
     font-size: 4rem;
@@ -124,7 +125,7 @@ h2, h3 {
 }
 
 .main {
-    width: 75%;
+    /* width: 75%; */
     float: left;
 }
 
