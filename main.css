@@ -72,8 +72,8 @@ h2, h3 {
 
 .box--center--wide {
     width: 75%;
-    /* margin: 5% 0 0 12.5%; */
-    margin: 10% 0 0 10%;
+    margin: 5% 0 0 12.5%;
+    /* margin: 10% 0 0 10%; */
     text-align: center;
 }
 
@@ -129,7 +129,7 @@ h2, h3 {
 
 .main {
     width: 75%;
-    /* float: left; */
+    float: left;
 }
 
 .movie {
