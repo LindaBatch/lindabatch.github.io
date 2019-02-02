@@ -59,7 +59,8 @@ h1.has-subtitle h3 {
 }
 
 h2, h3 {
-    color: #424242;
+    /* color: #424242; */
+    color: lightseagreen;
     opacity: .5;
 }
 
@@ -76,7 +77,7 @@ h2, h3 {
 
 .btn {
     display: inline-block;
-    background-color: orangered;
+    background-color: turquoise;
     color: #eeeeee;
     padding: 1rem 2rem;
     margin: 2rem 1rem;
@@ -91,7 +92,7 @@ h2, h3 {
 }
 
 .btn:hover {
-    background-color: tomato;
+    background-color: paleturquoise;
     color: white;
 }
 
@@ -125,7 +126,7 @@ h2, h3 {
 }
 
 .main {
-    /* width: 75%; */
+    width: 75%;
     float: left;
 }
 
