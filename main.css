@@ -1,0 +1,207 @@
+* {
+    font-family: 'Slabo 27px', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    font-size: 1.25rem;
+}
+
+form {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #424242;
+    text-align: right;
+    width: auto;
+    display: inline-block;
+}
+
+form input {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 1rem 1.5rem 2rem;
+    border: none;
+    padding: .5rem .25rem;
+}
+
+form input.medium {
+    width: 9rem;
+}
+
+form input.short {
+    width: 3rem;
+}
+
+form label {
+    opacity: .75;
+}
+
+h1 {
+    color: #424242;
+    border-bottom: 2px solid tomato;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+h1.left {
+    text-align: left;
+}
+
+h1.has-subtitle h3 {
+    display: inline-block;
+    text-align: right;
+    font-size: 1.5rem;
+    opacity: .5;
+}
+
+h2, h3 {
+    color: #424242;
+    opacity: .5;
+}
+
+.box--center {
+    width: 50%;
+    margin: 10% 0 0 25%;
+    text-align: center;
+}
+
+.box--center--wide {
+    width: 75%;
+    margin: 5% 0 0 12.5%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: orangered;
+    color: #eeeeee;
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 1rem;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.btn--secondary {
+    background-color: #424242;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    margin: 1rem .5rem;
+    font-weight: normal;
+    border-radius: .5rem;
+}
+
+.btn--secondary:hover {
+    background-color: #555555;
+
+}.btn--small {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    font-weight: normal;
+    border-radius: .5rem;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.main {
+    width: 75%;
+    float: left;
+}
+
+.movie {
+    background-color: #555555;
+    color: #eeeeee;
+    text-align: left;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.movie h2 {
+    color: white;
+    opacity: 1;
+}
+
+.movie h2 span {
+    opacity: .5;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.movie p {
+    margin-top: 1rem;
+}
+
+.movie .movie__complex {
+    margin: 1rem 0 1rem 2rem;
+}
+
+.movie .movie__complex__title {
+    width: 20%;
+    display: inline-block;
+}
+
+.movie .movie__complex, .movie .movie__complex a {
+    color: white;
+}
+
+.sidebar {
+    width: 25%;
+    float: right;
+}
+
+.sidebar .sidebar__group {
+    text-align: left;
+    padding-left: 2rem;
+    margin: 3rem 0;
+    font-size: 1.5rem;
+}
+
+.sidebar .sidebar__group a {
+    display: block;
+    color: #424242;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+.sidebar hr {
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+}
+
+.theatre-address {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.theatre-address a {
+    color: orangered;
+    transition: 0.1s ease-in-out;
+}
+
+.theatre-address a:hover {
+    color: tomato;
+}
