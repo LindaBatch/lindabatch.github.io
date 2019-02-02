@@ -39,9 +39,9 @@ form label {
 }
 
 h1 {
-    /* color: #424242; */
-    color: lightseagreen;
-    border-bottom: 2px solid tomato;
+    color: #424242;
+    /* color: lightseagreen; */
+    border-bottom: 2px solid darkturquoise;
     text-align: center;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -59,8 +59,8 @@ h1.has-subtitle h3 {
 }
 
 h2, h3 {
-    /* color: #424242; */
-    color: lightseagreen;
+    color: #424242;
+    /* color: lightseagreen; */
     opacity: .5;
 }
 
@@ -72,12 +72,14 @@ h2, h3 {
 
 .box--center--wide {
     width: 75%;
-    margin: 5% 0 0 12.5%;
+    /* margin: 5% 0 0 12.5%; */
+    margin: 10% 0 0 10%;
+    text-align: center;
 }
 
 .btn {
     display: inline-block;
-    background-color: turquoise;
+    background-color: lightseagreen;
     color: #eeeeee;
     padding: 1rem 2rem;
     margin: 2rem 1rem;
@@ -127,7 +129,7 @@ h2, h3 {
 
 .main {
     width: 75%;
-    float: left;
+    /* float: left; */
 }
 
 .movie {
