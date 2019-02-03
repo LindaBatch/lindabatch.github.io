@@ -218,12 +218,13 @@ h3.left {
     background-color: paleturquoise;
     color: black;
     cursor: pointer;
-    padding: 2rem;
+    padding: .5rem;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    font-size: 2rem;
 }
 
 .active, .accordion:hover {
@@ -236,6 +237,7 @@ h3.left {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-size: 1.5rem;
 }
 
 .theatre-address {
