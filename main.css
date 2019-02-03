@@ -219,7 +219,10 @@ h3.left {
     color: black;
     cursor: pointer;
     padding: .5rem 1rem;
-    width: 100%;
+    /*width: 80%;
+    float: right;*/
+    padding-left: 2rem;
+    margin: 3rem 0;
     text-align: left;
     border: none;
     outline: none;
@@ -238,7 +241,7 @@ h3.left {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
 }
 
