@@ -231,7 +231,7 @@ h3.left {
 
 .accordion:after {
     content: '\02795';
-    font-size: 1.5rem;
+    font-size: .25rem;
     color: #424242;
     float: right;
 }
@@ -257,7 +257,7 @@ h3.left {
     font-weight: bold;
 }
 
-.panel p, a {
+.panel a {
     padding: .25rem 1rem;
     color: #424242;
 }
