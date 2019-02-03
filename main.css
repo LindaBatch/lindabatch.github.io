@@ -216,7 +216,7 @@ h3.left {
 
 .accordion {
     background-color: paleturquoise;
-    color: black;
+    color: #424242;
     cursor: pointer;
     text-align: left;
     border: none;
@@ -246,7 +246,7 @@ h3.left {
     font-weight: bold;
 }
 
-.panel p {
+.panel a {
     padding: .25rem 1rem;
 }
 .theatre-address {
