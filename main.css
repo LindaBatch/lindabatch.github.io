@@ -231,7 +231,7 @@ h3.left {
 
 .accordion:after {
     content: '\02795';
-    font-size: .25rem;
+    font-size: .75rem;
     color: #424242;
     float: right;
 }
