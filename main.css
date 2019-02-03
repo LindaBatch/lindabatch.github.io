@@ -81,7 +81,7 @@ h3.left {
 
 .box--center--wide {
     width: 75%;
-    margin: 5% 0 0 12.5%;
+    margin: 2% 0 0 10%;
     /* margin: 10% 0 0 10%; */
     text-align: center;
 }
@@ -218,9 +218,6 @@ h3.left {
     background-color: paleturquoise;
     color: black;
     cursor: pointer;
-    padding: .5rem 1rem;
-    /*width: 80%;
-    float: right;*/
     padding-left: 2rem;
     margin: 3rem 0;
     text-align: left;
@@ -232,19 +229,24 @@ h3.left {
 
 .active, .accordion:hover {
     background-color: lightseagreen;
-    color: #eeeeee;
+    color: white;
 }
 
 .panel {
-    padding: 0 1rem;
+    /*padding: 0 1rem;*/
     background-color: lightcyan;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    font-size: 1rem;
+    font-size: 1.15rem;
     text-align: left;
+    width: 90%;
+    float: right;
 }
 
+.panel p {
+    padding: .25rem 1rem;
+}
 .theatre-address {
     text-align: left;
     font-size: 1.5rem;
