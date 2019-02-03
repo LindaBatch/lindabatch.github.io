@@ -64,6 +64,10 @@ h2, h3 {
     opacity: .5;
 }
 
+h3.left {
+    text-align: left;
+}
+
 .box--center {
     width: 50%;
     margin: 10% 0 0 25%;
