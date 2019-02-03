@@ -229,9 +229,20 @@ h3.left {
     font-weight: bold;
 }
 
+.accordion:after {
+    content: '\02795';
+    font-size: 1.5rem;
+    color: #424242;
+    float: right;
+}
+
 .active, .accordion:hover {
     background-color: lightseagreen;
     color: white;
+}
+
+.active:after {
+    content: "\2796";
 }
 
 .panel {
@@ -246,7 +257,7 @@ h3.left {
     font-weight: bold;
 }
 
-.panel p {
+.panel p, a {
     padding: .25rem 1rem;
     color: #424242;
 }
