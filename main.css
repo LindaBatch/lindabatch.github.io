@@ -214,6 +214,29 @@ h3.left {
     text-align: center;
 }
 
+.accordion {
+    background-color: paleturquoise;
+    color: black;
+    cursor: pointer;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: turquoise;
+}
+
+.panel {
+    padding: 0 1rem;
+    background-color: lightcyan;
+    display: none;
+    overflow: hidden;
+}
+
 .theatre-address {
     text-align: left;
     font-size: 1.5rem;
