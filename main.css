@@ -225,6 +225,8 @@ h3.left {
     font-size: 1.5rem;
     width: 90%;
     float: right;
+    padding: .5rem 1rem;
+    font-weight: bold;
 }
 
 .active, .accordion:hover {
@@ -233,7 +235,6 @@ h3.left {
 }
 
 .panel {
-    /*padding: 0 1rem;*/
     background-color: lightcyan;
     max-height: 0;
     overflow: hidden;
@@ -242,6 +243,7 @@ h3.left {
     text-align: left;
     width: 90%;
     float: right;
+    font-weight: bold;
 }
 
 .panel p {
