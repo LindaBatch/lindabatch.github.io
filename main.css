@@ -66,6 +66,7 @@ h2, h3 {
 
 h2.left {
     text-align: left;
+    opacity: 1;
 }
 
 h3.left {
