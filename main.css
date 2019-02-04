@@ -245,8 +245,25 @@ h3.left {
     content: "\2796";
 }
 
+.accordion--button {
+    /*background-color: powderblue;*/
+}
+
 .accordion--button:after {
     content: none;
+}
+
+.accordion--home {
+    background-color: dimgray;
+    color: #eeeeee;
+}
+
+.accordion--home:after {
+    content: none;
+}
+
+.accordion--home:hover {
+    background-color: #fc4445;
 }
 
 .panel {
