@@ -190,12 +190,11 @@ h3.left {
 }
 
 .sidebar {
-    width: 25%;
+    width:17%;
     float: right;
-    /*position: fixed;*/
-    /*position: -webkit-sticky;*/
-    position: sticky;
-    top:0;
+    position: fixed;
+    overflow: auto;
+    margin-left: 58%;
 }
 
 .sidebar .sidebar__group {
@@ -227,7 +226,7 @@ h3.left {
     outline: none;
     transition: 0.4s;
     font-size: 1.5rem;
-    width: 90%;
+    width:100%;
     float: right;
     padding: .5rem 1rem;
     font-weight: bold;
@@ -277,7 +276,8 @@ h3.left {
     transition: max-height 0.2s ease-out;
     font-size: 1.15rem;
     text-align: left;
-    width: 90%;
+    /*width: 90%;*/
+    width:100%;
     float: right;
     font-weight: bold;
 }
