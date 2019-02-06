@@ -104,7 +104,7 @@ h3.left {
 
 .btn:hover {
     background-color: paleturquoise;
-    color: white;
+    color: #424242;
 }
 
 .btn--secondary {
@@ -192,6 +192,10 @@ h3.left {
 .sidebar {
     width: 25%;
     float: right;
+    /*position: fixed;*/
+    /*position: -webkit-sticky;*/
+    position: sticky;
+    top:0;
 }
 
 .sidebar .sidebar__group {
